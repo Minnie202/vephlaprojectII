@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market place</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b0daf5ea7.js" crossorigin="anonymous"></script>
+    <style>
+        #name::placeholder{
+            color: rgb(67, 60, 60);
+            padding-left: 30px;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div style="background-color: black; width: 100%;">
+        <img src="logo.svg" alt="" style="margin: 25px; position: relative;left: 610px;">
+    </div>
+
+    <div style="width: 100%;height: 2600px;background-color: #aec5eb;">
+
+            
+        <a href="market3.html"><i class="fa-solid fa-less-than" style="border: 2px solid black;border-radius: 15px;padding:5px;font-size: 20px;background-color: black;color: white;position: absolute;top: 305px;left: 160px;"></i></a>
+      <input type="text" id="name" name="name" placeholder="search" style="border: 1px solid black;background-color:transparent;width: 650px;height: 45px;position: absolute;top: 300px;left: 240px;">
+      <a href="#"><i class="fa-solid fa-magnifying-glass" style="color:black; font-size: 18px;position: absolute;top: 312px;left: 820px;"></i></a>
+
+         
+      <button type="button" onclick="CancelLogin()" id="placeButton" style="position: absolute;top:299px;left: 910px;height: 46px;">search</button>
+
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping" style="font-size: 30px;color:#1e2749;position: absolute;top: 305px;left: 1130px;"></i></a>
+<a href="contact.html"><i class="fa-regular fa-user" style="font-size: 20px;border: 2px solid #1e2749;color:black;position: absolute;top: 300px;left: 1195px;padding: 5px;border-radius: 40px;"></i></a>
+<a href="#"><i class="fa-solid fa-question" style="font-size: 20px;border: 2px solid #1e2749; padding: 5px;border-radius: 40px;color: #1e2749;position: absolute;top: 299px;left: 1260px;"></i></a> 
+
+<div style="border: 2px solid transparent;position: absolute;top: 430px;width: 83%;left: 120px;height: 2600px;">
+    <h3 style="text-align: center;">Home & Office</h3>
+    <div>
+    <div style="width: 32%;height: 440px;position: absolute;top: 80px;background-color: white;"><img src="ac.png" alt="" style="width: 200px;position: absolute;left: 90px;top: 80px;"><p style="position: absolute;top: 310px;padding: 20px;font-weight: 600;">Hisense 1.5HP air conditioner<br>N190,000</p></div>
+    <div style="width: 32%;height: 440px;position: absolute;top: 80px;left: 396px;background-color: white;"><img src="speaker.png" alt="" style="width: 240px;position: absolute;top: 50px;left: 60px;"><p  style="font-weight: 600;position: absolute;top: 310px;padding: 20px;">Portable black TV stand with built in shelf<br>N145,000</p></div>
+    <div style="width: 32%;height: 440px;position: absolute;top: 80px;left: 793px;background-color: white;"><img src="washing.png" alt="" style="width: 240px;position: absolute;top: 50px;left: 40px;"><p style="font-weight: 600;position: absolute;top: 310px;padding: 20px;">Hisense manual washing machine<br>N95,000</p></div>
+</div>
+
+<div style="border: 2px solid transparent;width:1170px;height: 447px;position: absolute;top: 580px;">
+    <div style="width: 32%;height: 440px;background-color: white;"><img src="gen.png" alt="" style="width: 200px;position: absolute;left: 90px;top: 90px;"><p style="position: absolute;top: 310px;padding: 20px;font-weight: 600;">Haier 3.75kVA Generator<br>N88,000</p></div>
+    <div style="width: 32%;height: 440px;position: absolute;top: 0px;left: 396px;background-color: white;"><img src="tel.png" alt="" style="width: 200px;position: absolute;top: 70px;left: 80px;"><p  style="font-weight: 600;position: absolute;top: 310px;padding: 20px;left: 30px;">LG UHD 55" TV<br>N102,000</p></div>
+    <div style="width: 32%;height: 440px;position: absolute;top: 0px;left: 793px;background-color: white;"><img src="fridge.png" alt="" style="width: 210px;position: absolute;top: 70px;left: 80px;"><p style="font-weight: 600;position: absolute;top: 310px;padding: 20px;">Haier 540 liters side by side Refrigerator<br>N490,000</p></div>
+</div>
+
+<div style="border: 2px solid transparent;width: 1170px;height: 447px;position: absolute;top: 1090px;">
+    <div style="width: 32%;height: 440px;background-color: white;"><img src="microwave.png" alt="" style="width: 260px;position: absolute;left: 55px;top: 90px;"><p style="position: absolute;top: 310px;padding: 20px;font-weight: 600;">Scanfrost 20 liters microwave oven<br>N43,000</p></div>
+    <div style="width: 32%;height: 440px;position: absolute;top: 0px;left: 396px;background-color: white;"><img src="blender.png" alt="" style="width: 250px;position: absolute;top: 40px;left: 50px;"><p  style="font-weight: 600;position: absolute;top: 310px;padding: 20px;">Binatone special grade blender<br>N57,000</p></div>
+    <div style="width: 32%;height: 440px;position: absolute;top: 0px;left: 793px;background-color: white;"><img src="solar.png" alt="" style="width: 220px;position: absolute;top: 70px;left: 60px;"><p style="font-weight: 600;position: absolute;top: 310px;padding: 20px;">Full set solar inverter<br>N299,000</p></div>
+
+</div>
+
+<div style="border: 2px solid transparent;width: 1170px;height: 447px;position: absolute;top: 1600px;">
+    <div style="width: 32%;height: 440px;background-color: white;"><img src="torch.png" alt="" style="width: 200px;position: absolute;left: 90px;top: 80px;"><p style="position: absolute;top: 310px;padding: 20px;font-weight: 600;">Solar rechargeable table lamp<br>N8,200</p></div>
+    <div style="width: 32%;height: 440px;position: absolute;top: 0px;left: 396px;background-color: white;"><img src="call.png" alt="" style="width: 240px;position: absolute;top: 50px;left: 70px;"><p  style="font-weight: 600;position: absolute;top: 310px;padding: 20px;">Huawei latest land line + GSM card<br>N10,200</p></div>
+    <div style="width: 32%;height: 440px;position: absolute;top: 0px;left: 793px;background-color: white;"><img src="f.png" alt="" style="width: 290px;position: absolute;top: 50px;left: 40px;"><p style="font-weight: 600;position: absolute;top: 310px;padding: 20px;">Special grade ceiling fan + blade<br>N15,000</p></div>    
+</div>
+
+
+</div>
+
+
+<div class="footer2" style="position: absolute;top: 2800px; width: 100%;">
+    <footer>
+        <div class="footer-container2">
+            <div class="footer-column2">
+                <h2 style="font-size: 18px; margin-bottom: 10px;">Quick links </h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Contact us </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Our Services </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Our Marketplace</a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Our Routes </a></li>
+    
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2 style="font-size: 18px; margin-bottom: 10px;">Information & legal </h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">About Us </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Terms & Conditions </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Privacy Policy </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Copyright Information </a></li>
+    
+                </ul>
+    
+            </div>
+    
+            <div class="footer-column">
+                <h2 style="font-size: 18px; margin-bottom: 10px;">Social Links </h2>
+                <ul style="list-style: none; padding: 0;">
+                    <!-- <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">contact us icons </a></li> -->  <a href="#"><i class="fa-brands fa-instagram" style="font-size:35px;color: white;"></i></a><a href="#"><i class="fa-brands fa-linkedin" style="font-size:35px;position: absolute;left: 910px;color: white;"></i></a><a href="#"><i class="fa-brands fa-twitter" style="font-size:35px;position: absolute;left: 955px;color: white;"></i></a><a href="#"><i class="fa-solid fa-globe" style="font-size:30px;position: absolute;left: 1000px;color: white;"></i></a>
+
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;font-size: 20px;font-weight: 600;">Our Newsletter </a></li>
+                    <button type="button" onclick="CancelLogin()" id="cancelButton1" style=" width:100px; height: 43px;position: absolute;top: 132px;left: 955px;padding: 15px 40px 30px 20px;font-weight: 600;border: none;border-radius: 4px;">Submit</button>
+                    <button type="button" onclick="CancelLogin()" id="emailaButton">Email Address</button>               
+                </ul>
+
+
+                </div>
+                
+            </div>
+            
+            <div style="border-top: 2px solid white;width: 1190px;margin-top: 30px;margin-left: 110px;margin-bottom: 45px;">
+                <img src="logo.svg" alt="" style=" position: absolute;left: 150px;"> 
+                <p style="position: absolute;left: 1060px;top: 240px;">Copyright Information @ 2023</p>
+            </div>
+    </footer>
+</div>
+
+</body>
+</html>

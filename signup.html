@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b0daf5ea7.js" crossorigin="anonymous"></script>
+    
+    <style>
+        body {
+            background-color: #aec5eb;
+            
+
+        }
+        .container-up{
+            /* width: 600px; */
+            position: absolute;
+            left: 70px;
+            top: -70px;
+        }
+        /* .login{
+            display: flex;
+            align-items: center;
+        }
+        .whole{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            border: 2px solid red;
+        } */
+    </style>
+</head>
+<body style="background-color: #aec5eb;">
+
+    <div class="navbar1">
+        <a href="#">        <img class="img1" src="logo.svg" alt="logo" style="position: absolute;left: 120px;top: 20px;"></a>
+     <a href="map1.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 270px;top:32px;padding: 10px;border-radius: 4px;">Live Tracking</a>
+    <a href="market.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 470px;top:32px;padding: 10px;border-radius: 4px;">Marketplace</a>
+    <a href="contact.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 670px;top:32px;padding: 10px;border-radius: 4px;">Our Services </a>
+    <a href="#" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 870px;top:32px;padding: 10px;border-radius: 4px;">Contact Us</a>
+    <a href="signin.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 1060px;top:32px;padding: 10px;border-radius: 4px;">Sign In</a>
+    <a href="signup.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 1210px;top:32px;padding: 10px;border-radius: 4px;">Sign Up</a>
+  
+</div>
+
+    <!-- <div class="whole">
+      <div class="login">  <i class="fa-solid fa-key"></i> <h3 style="margin-left: 90px;">LOGIN</h3></div>
+    </div> -->
+    <div class="container-up">
+        <form id="form" action="/">
+            <div class="mark2"><img src="mark.jpg" alt="mark" class="mark1">  <h3>SIGN UP</h3></div>
+          
+            <p class="continue1" > Become a member - you will enjoy exclusive deals, offers, invites and rewards.</p><br><br>
+
+            <div class="input-control">
+                <label for="name">First name</label>
+                <input id="name" name="username" type="text" required>
+                <div class="input-control">
+                <label for="name">Last name</label>
+                <input id="name" name="name" type="text" required>
+
+                <div class="input-control">
+                    <label for="telephone">Phone number</label>
+                    <input id="telephone" name="telephone" type="tel" required>
+                    <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <div class="input-control">
+                        <label for="password">Password </label>
+                        <input id="password" name="password" type="password" required>
+                        <div class="input-control">
+                        <label for="password"> Confirm Password</label>
+                        <input id="password" name="password" type="password" required>
+        
+    
+                 
+                    </div>
+                     <p style="font-weight: 600;">we'd like to provide you with information and offers about product and services that may be of interest. By providing your details, you consent to recieving information by post , sms, email, and other electronic means. </p>
+                  
+            <!-- <button type="submit" style="background-color: rgb(6, 6, 36); "><a href="#" style="color: white; text-decoration: none;"> Log in</a></button>        -->
+            <button type="button" onclick="CancelLogin()" id="loginButton1" style="width: 130px; height: 43px;"><a href="index.html" style="text-decoration: none;color: white;">Create account</a></button>     
+            <button type="button" onclick="CancelLogin()" id="cancelButton1" style=" width:100px; height: 43px;">Cancel</button>
+            <div class="delivery1"><img src="delivery.svg" alt=""></div>
+        </form>
+
+    </div>
+
+</body>
+</html>

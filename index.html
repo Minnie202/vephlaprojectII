@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b0daf5ea7.js" crossorigin="anonymous"></script>
+    <style>
+        #email::placeholder{
+            color: white;
+
+        }
+        #name::placeholder{
+            color: white;
+        }
+        .navbar1 {
+            background-color: #1e2749;;
+            overflow: hidden;
+            width: 100%;
+            height: 100px;
+            
+        }
+
+        /* Style the navigation bar links */
+        .navbar1 a {
+            float: left;
+            display: block;
+            color: white;
+            
+                       text-decoration: none;
+        }
+
+        /* Change the color of the links on hover */
+        .navbar1 a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body style="background-color: white;">
+
+    <div class="navbar1">
+        <a href="#">        <img class="img1" src="logo.svg" alt="logo" style="position: absolute;left: 120px;top: 20px;"></a>
+     <a href="map1.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 270px;top:32px;padding: 10px;border-radius: 4px;">Live Tracking</a>
+    <a href="market.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 470px;top:32px;padding: 10px;border-radius: 4px;">Marketplace</a>
+    <a href="#" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 670px;top:32px;padding: 10px;border-radius: 4px;">Our Services </a>
+    <a href="contact.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 870px;top:32px;padding: 10px;border-radius: 4px;">Contact Us</a>
+    <a href="signin.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 1060px;top:32px;padding: 10px;border-radius: 4px;">Sign In</a>
+    <a href="signup.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 1210px;top:32px;padding: 10px;border-radius: 4px;">Sign Up</a>
+  
+</div>
+    
+      
+    <img class="img2" src="img1.jpg" alt="">
+    <div class="welcome">
+        <h1 >Welcome To Swift Delivery</h1><br>
+    <p style="font-size: 16px; font-weight: 500; color: white;">Experience the new era delivery services with real time tracking <br> and an active market place</p><br><br><br><br><br><br><br></div>
+     
+    
+        <form>
+            <label class="order" for="oname">Order ID</label><br>
+            <input class="input1" type="text" id="oname" name="oname" placeholder="Enter Order ID" >
+            
+            <button id="myButton" style="width: 190px; height: 40px; border-radius: 6px; padding-left: 5px; padding-right: 15px; position: absolute;top: 470px;left: 780px;">Track Your Order</button>
+
+           
+           <a href="summary.html"> <i class="fa-solid fa-arrow-right" style="font-size:25px;color:#1e2749;position: absolute;top: 478px;left: 930px;"></i></a>
+         
+            
+            <p style="color: white; font-weight: 500;position: absolute;top:540px;left:550px;">Get real-time updates on your delivery status.</p>
+
+        </form>
+        </div>
+        
+        <div style="border: 2px solid #1e2749;width: 100%;height: 530px;background-color: #1e2749;position: absolute;top: 610px;">
+            
+        <img src="map2.png" alt="" style="width:200px;position: absolute;top: 100px;left: 120px;">
+        <p style="text-align:center;color: white;position: absolute;top: 310px;left: 138px;"><span style="font-weight: 600;"> Live Tracking </span><br><br> Track your delivery in <br><br> real-time.</p>
+    
+    
+    
+        <img src="basket.png" alt="" style="width:200px;position: absolute;top: 100px;left: 600px;">
+        <p style="text-align:center;color: white;position: absolute;top: 310px;left: 600px;"><span style="font-weight: 600;">Active Marketplace </span><br><br> A bustling marketplace at  <br><br> your fingertips.</p>
+        <button type="button" onclick="CancelLogin()" id="placeButton" style="position: absolute;top:460px;left: 620px;border: 1px solid white;width: 160px;height: 50px;"><a href="learn.html" style="color: white;text-decoration: none;">Learn More</a></button>
+    
+    
+    
+    <div>
+        <img src="delvcircle.svg" alt="" style="width:200px;position: absolute;top: 100px;left: 1100px;">
+        <p style="text-align:center;color: white;position: absolute;top: 310px;left: 1115px;"><span style="font-weight: 600;"> Streamlined Ordering </span><br><br> Easy and quick order<br><br> placements.</p>
+    </div>
+
+    <div style="border: 2px solid #aec5eb; width:100%;height: 1500px; position: absolute;top:  528px;background-color: #aec5eb;">
+
+        <h1 style="text-align: center;margin-top: 17px;"> How  It Works</h1>
+        <p style="text-align: center;">Ordering and tracking your delivery is as easy as 1-2-3</p>
+        <img  class="cup1" src="cup.png" alt="">
+        <div class="browse">
+            <h1 >Place Your Order</h1>
+            <p style="color: black; font-size: 14px;">Browse our marketplace <br> and place your order</p>
+            <button type="button" onclick="CancelLogin()" id="placeButton"><a href="market.html" style="color: white;text-decoration: none;">Go To Marketplace</a></button>
+        </div>
+
+        <img src="delivery2.png" alt="" class="livery2">
+        <div class="track">
+            <h1>Track Your Order</h1>
+            <p style="color: black; font-size: 14px;">Enter your Order ID to get real-time updates.</p>
+            <button type="button" onclick="CancelLogin()" id="placeButton"><a href="map1.html" style="text-decoration: none;color: white;"> Track Now</a></button>
+        </div>
+        <img src="blue.png" alt="" class="bluepic">
+        <div class="blue1">
+            <h1>Receive Your Delivery</h1>
+            <p style="color: black; font-size: 14px;">Sit back and relax while we deliver <br> your orders swiftly</p>
+            <button type="button" onclick="CancelLogin()" id="placeButton"> <a href="learn.html" style="color: white;text-decoration: none;">Learn More</a>  </button>
+        </div>
+    </div>
+
+    <div style="border: 2px solid white; width: 100%;height:580px;position: absolute;top: 2100px;background-color: white;">
+        <h1 style="text-align: center;margin-top: 20px;">What Our Customers are Saying</h1>
+    
+    <div class="absolutely" style="background-color: #1e2749;">
+        <p style="color: white;font-size: 15px; text-align: left;padding: 30px;" >"i am absolutely thrilled with this <br> delivery website's live tracking feature.<br> It brings a whole new level of <br>convenience and peace of mind to my <br> deliveries. i can see exactly where my <br>package is in real-time, and the active <br> marketplace is a game-changer. i can <br> easily find and order from a variety of <br>local stores and  restaurants all in one <br> place. Plus, the delivery is always on <br>time. Kudos to the team for such a<br> seamless and efficient service!"</p>
+             </div>
+             <div class="absolutely2" style="background-color: #1e2749;">
+                <p  style="color: white;font-size: 15px; text-align: left;padding: 30px;">"This delivery website has revolutionized <br>the way i shop and recieve packages. The live tracking feature is nothing short <br> of amazing. I can track my deliveries <br>every step of the way, and it's incredibly<br> accurate. The active marketplace is also<br> a huge plus. I can order from different <br> vendors all in one go. it's made my life so <br>much easier and more efficient. I highly <br> recommend this service to anyone <br> looking for a reliable and convenient<br> deliveries."</p>
+            </div>
+
+            <div class="absolutely3" style="background-color: #1e2749;">
+                <p style="color: white;font-size: 15px; text-align: left;padding: 30px;">"I've been using this delivery website for <br> a while now, and i couldn't be happier. <br> The live tracking feature is a game-<br>changer, especially when I'm eagerly <br>awaiting a package. The active<br> marketplace is fantastic; i can find and <br> order from local businesses effortlessly.<br> The delivery is always prompt, and the <br> drivers are friendly and professional. This<br> platform has simplified my life in so many<br> ways. It's a must-try for anyone who<br> wants a top-notch delivery service."</p>
+            </div>
+        
+            <button type="button" onclick="CancelLogin()" id="viewButton"><a href="market3.html" style="text-decoration: none;color: white;">View More</a></button>
+        </div>
+
+        <img src="redyellow.png" alt="" style="width: 100%; position:absolute;top:2680px;">
+        
+    <p style="color: white; position: absolute; top: 2750px; left: 565px;font-size: 18px;">Place your order now and enjoy our </p>
+    <p style="color: white; position: absolute; top: 2788px; left: 625px;">seamless delivery services.</p>
+    <h1 style="position: absolute; top: 2820px; left: 425px;color: white;">Ready for a Swift Delivery Experience?</h1>
+    <input id="name" name="name" type="text" placeholder="Enter your full name" style="background-color:transparent;width: 205px; height: 50px; border: 1px solid white;border-radius: 5px;padding: 7px;position: absolute;top: 2900px;left: 416px;">
+    <input id="email" name="username" type="email" placeholder="Enter your email" style="background-color:transparent;width: 205px; height: 50px; border: 1px solid white;border-radius: 5px;padding: 7px;position: absolute;top: 2900px;left: 630px;">
+    <button type="button" onclick="CancelLogin()" id="placeorderButton" style="position: absolute;top: 2900px;left: 845px;"><a href="order.html" style="text-decoration: none;color:black;">Place Order</a></button>
+    
+    <div  style="position: absolute;top: 3020px; width: 100%;">
+    <footer>
+        <div class="footer-container2">
+            <div class="footer-column2">
+                <h2 style="font-size: 18px; margin-bottom: 10px;">Quick links </h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"> <a href="contact.html" style="color: white; text-decoration: none;">Contact us </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Our Services </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="market.html" style="color: white; text-decoration: none;">Our Marketplace</a></li>
+                    <li style="margin-bottom: 8px;"> <a href="map1.html" style="color: white; text-decoration: none;">Our Routes </a></li>
+    
+                </ul>
+                </div>
+
+                <div class="footer-column3">
+                    <h2 style="font-size: 18px; margin-bottom: 10px;">Information & legal </h2>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">About Us </a></li>
+                        <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Terms & Conditions </a></li>
+                        <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Privacy Policy </a></li>
+                        <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Copyright Information </a></li>
+        
+                    </ul>
+                </div>
+
+                
+                <div class="footer-column4">
+                    <h2 style="font-size: 18px; margin-bottom: 10px;">Social Links </h2>
+                    <ul style="list-style: none; padding: 0;">
+                        <!-- <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">contact us icons </a></li> --><a href="#"><i class="fa-brands fa-instagram" style="font-size:35px;color: white;"></i></a><a href="#"><i class="fa-brands fa-linkedin" style="font-size:35px;position: absolute;left: 60px;color: white;"></i></a><a href="#"><i class="fa-brands fa-twitter" style="font-size:35px;position: absolute;left: 105px;color: white;"></i></a><a href="#"><i class="fa-solid fa-globe" style="font-size:30px;position: absolute;left: 150px;color: white;"></i></a>
+                        <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;font-size: 20px;font-weight: 600;">Our Newsletter </a></li>
+                        <button type="button" onclick="CancelLogin()" id="emailaButton">Email Address</button>               
+                        <button type="button" onclick="CancelLogin()" id="cancelButton1" style=" width:100px; height: 43px;padding: 15px 40px 30px 20px;font-weight: 600;border: none;border-radius: 4px;position: absolute;top: 96px;left: 100px;"><a href="cart.html" style="text-decoration: none;color: black;">Submit</a></button>
+                                          </ul>
+    </div>
+
+
+
+    <div style="border-top: 2px solid white;width: 1190px;margin-top: 30px;margin-left: 110px;margin-bottom: 45px;">
+        <!-- <div style="border-top:2px solid white;width: 1300px;position: absolute;left: 60px;top:90px;"></div> -->
+        <img src="logo.svg" alt="" style=" position: absolute;left: 150px;"> 
+        <p style="position: absolute;left: 1060px;top: 240px;">Copyright Information @ 2023</p>
+    </div>
+        </footer>
+                
+            </div>
+
+    
+</body>
+</html>

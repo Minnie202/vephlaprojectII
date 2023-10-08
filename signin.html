@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b0daf5ea7.js" crossorigin="anonymous"></script>
+    
+    <style>
+        body {
+            background-color: #aec5eb;
+        }
+        .login{
+            display: flex;
+            align-items: center;
+        }
+        .whole{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar1">
+        <a href="#">        <img class="img1" src="logo.svg" alt="logo" style="position: absolute;left: 120px;top: 20px;"></a>
+     <a href="map1.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 270px;top:32px;padding: 10px;border-radius: 4px;">Live Tracking</a>
+    <a href="market.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 470px;top:32px;padding: 10px;border-radius: 4px;">Marketplace</a>
+    <a href="contact.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 670px;top:32px;padding: 10px;border-radius: 4px;">Our Services </a>
+    <a href="#" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 870px;top:32px;padding: 10px;border-radius: 4px;">Contact Us</a>
+    <a href="signin.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 1060px;top:32px;padding: 10px;border-radius: 4px;">Sign In</a>
+    <a href="signup.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 1210px;top:32px;padding: 10px;border-radius: 4px;">Sign Up</a>
+  
+</div>
+
+    <!-- <div class="whole">
+      <div class="login">  <i class="fa-solid fa-key"></i> <h3 style="margin-left: 90px;">LOGIN</h3></div>
+    </div> -->
+    <div class="container">
+        <form id="form" action="/">
+            <div class="key2"><img src="key.img.jpg" alt="key" class="key1">  <h3>LOGIN</h3></div>
+          
+            <p class="continue"> To continue with your order, simply sign in below.</p><br><br>
+
+            <div class="input-control">
+                <label for="email">Email Address</label>
+                <input id="email" name="username" type="email" required>
+                <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" required>
+
+                 
+                    </div>
+                        <div class="tick">
+                                    
+                        <input id="remember" name="remember" type="checkbox" class="remember">
+                        <label for="remember" class="remember2"> Remember Me</label>
+                        </div> <p class="forget"><a href="forget.html">Forget password?</a></p>
+                  
+            <!-- <button type="submit" style="background-color: rgb(6, 6, 36); "><a href="#" style="color: white; text-decoration: none;"> Log in</a></button>        -->
+            <button type="button" onclick="CancelLogin()" id="loginButton"><a href="index.html" style="text-decoration: none;color: white;"></a>Log in</button>     
+            <button type="button" onclick="CancelLogin()" id="cancelButton">Cancel</button>
+        </form>
+
+    </div>
+    <div style="border-top:1px solid black;width: 800px;position: absolute;left: 280px;">
+        <p style="padding-top: 30px;text-align: center;"><span style="font-weight: 600;">Don't have an account? </span><span><a href="signup.html" style="text-decoration: none;color: black;">Sign up</a></span></p>
+
+    </div>
+<!-- <div class="dont">
+    <footer>
+        <p ><span style="font-weight: bold;position: absolute;top: 5px;"> Don't have an account? </span><a href="signup.html" style="color: black; text-decoration: none;">Sign up</a></p>
+    </footer>
+</div> -->
+      <!-- <p>To continue with your order, simply sign in below</p><br>
+      <label class="email" for="ename">Email Address</label><br>
+      <input class="email1" type="email" id="ename" name="ename" required="required">    
+      <label class="password" for="pname">Password</label><br>
+      <input class="password1" type="password" id="pname" name="pname"> 
+      <input type="submit" value="login">    -->
+    
+
+    </div>
+</body>
+</html>

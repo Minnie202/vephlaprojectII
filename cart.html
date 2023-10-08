@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market place</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b0daf5ea7.js" crossorigin="anonymous"></script>
+    <style>
+        #name::placeholder{
+            color: rgb(67, 60, 60);
+            padding-left: 30px;
+
+        }
+        .cart-item {
+  display: flex;
+  align-items: center;
+}
+
+.item-count {
+  margin: 0 10px;
+  width: 30px;
+  text-align: center;
+  position: absolute;
+  top: 460px;
+left: 250px;
+color: white;
+}
+
+ #decrement {
+  background-color: #5c5e60;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  
+}
+#decrement:hover{
+    background-color: white;
+    color: black;
+}
+    </style>
+</head>
+<body>
+    
+    <div style="background-color: black; width: 100%;">
+        <img src="logo.svg" alt="" style="margin: 25px; position: relative;left: 610px;">
+    </div>
+
+    <div style="width: 100%;height: 1930px;background-color: #aec5eb;">
+
+           
+        <a href="#"><i class="fa-solid fa-less-than" style="border: 2px solid black;border-radius: 15px;padding:5px;font-size: 20px;background-color: black;color: white;position: absolute;top: 220px;left: 160px;"></i></a>
+      <input type="text" id="name" name="name" placeholder="search" style="border: 1px solid black;background-color:transparent;width: 650px;height: 45px;position: absolute;top: 215px;left: 240px;">
+      <a href="#"><i class="fa-solid fa-magnifying-glass" style="color:black; font-size: 18px;position: absolute;top: 230px;left: 820px;"></i></a>
+
+         
+      <button type="button" onclick="CancelLogin()" id="placeButton" style="position: absolute;top:215px;left: 910px;height: 46px;">search</button>
+
+      <a href="#"><i class="fa-solid fa-cart-shopping" style="font-size: 30px;color:#1e2749;position: absolute;top: 225px;left: 1130px;"></i></a>
+<a href="#"><i class="fa-regular fa-user" style="font-size: 20px;border: 2px solid #1e2749;color:black;position: absolute;top: 222px;left: 1195px;padding: 5px;border-radius: 40px;"></i></a>
+<a href="#"><i class="fa-solid fa-question" style="font-size: 20px;border: 2px solid #1e2749; padding: 5px;border-radius: 40px;color: #1e2749;position: absolute;top: 221px;left: 1260px;"></i></a> 
+
+<h1 style="color: #1e2749;position: absolute;top: 330px;left: 100px;">Cart Items</h1>
+<div style="border: 2px solid transparent;position: absolute;top: 410px;width: 85%;left: 100px;">
+    <div style="background-color: #1e2749;width: 1195px;height: 600px;border: 2px solid transparent;border-radius: 4px;">
+        <div style="border: 2px solid transparent;background-color: white;width: 550px;height: 500px;position:absolute;top: 50px;left: 0;border-radius: 4px;"><img src="itel.png" alt="" style="width: 200px;position: absolute;left:170px ;top: 90px;"> <img src="itel.png" alt="" style="width: 90px;position: absolute;top: 360px;left: 90px;"><img src="itel.png" alt="" style="width: 90px;position: absolute;top: 360px;left: 230px;"><img src="itel.png" alt="" style="width: 90px;position: absolute;top: 360px;left: 370px;"></div>
+
+        <div style="position: absolute;top: 50px;left: 575px;border: 2px solid transparent;width: 500px;height: 500px;">
+            <button type="button" onclick="CancelLogin()" id="cancelButton1" style=" width:200px; height: 46px;padding: 15px 40px 30px 40px;font-weight: 600;border: none;border-radius: 4px;position: absolute;top: 0px;left: -110px;"><a href="bill.html" style="text-decoration: none;color: white;"> Free Delivery</a></button>
+
+            <h4 style="position: absolute;top: 80px;color: white;">Samsung S21, 8GB+128GB, 6.52<br>Smartphone, 5G, 5000mAh, Grey</h4>
+            <h4 style="position: absolute;top: 150px;color: white;">Samsung S21</h4>
+            <h1 style="position: absolute;top: 190px;color: white;font-size: 45px;">N 250,000</h1>
+            <p style="position: absolute;top: 260px;color:rgb(183, 182, 182);font-weight: 600;"> In Stock</p>
+            <h4 style="position: absolute;top: 300px;color: white;">+ Shipping From N 250 To Lekki-Ajah</h4>
+            <i class="fa-solid fa-star"  style="position: absolute;top: 360px;left:10px;color: rgb(227, 180, 10);"></i>
+            <i class="fa-solid fa-star"  style="position: absolute;top: 360px;left:60px;color: rgb(227, 180, 10);"></i>
+            <i class="fa-solid fa-star"  style="position: absolute;top: 360px;left:110px;color: rgb(227, 180, 10);"></i>
+            <i class="fa-solid fa-star"  style="position: absolute;top: 360px;left:165px;color: rgb(227, 180, 10);"></i>
+            <i class="fa-solid fa-star"  style="position: absolute;top: 360px;left:220px;color: rgb(204, 204, 203);"></i>
+
+            <button type="button" onclick="CancelLogin()" id="cancelButton1" style=" width:170px; height: 46px;padding: 15px 40px 30px 40px;font-weight: 600;border: none;border-radius: 4px;position: absolute;top: 450px;left: -110px;">Buy Now</button>
+           
+            <div class="cart-item">
+                <button id="decrement" style="position: absolute; top: 460px;left: 220px;">-</button>
+                <span class="item-count">1</span>
+                <button id="decrement" style="position: absolute; top: 460px;left: 300px;">+</button>
+              </div>
+        </div>
+        <p style="position: absolute;top: 630px;left: 1060px;font-weight: 600;">Shop More</p> <i class="fa-solid fa-arrow-right" style="position: absolute;top: 630px;left:1175px;font-size: 25px;"></i>
+        
+    <div style=" width: 1200px; height: 400px;position: absolute;left: 0px;top: 770px;background-color: white;">
+         <p style="font-weight: 600; position: absolute;top:20px;left:20px;">Top Selling Products</p><p style="position: absolute;top: 20px;font-weight: 600;left: 1050px;">See Items</p><a href=""><i class="fa-solid fa-arrow-right" style="font-size: 25px;position: absolute;left: 1150px;top: 20px;color: black;"></i></a>
+
+        <img src="washing.png" alt="" style="width: 220px;position: absolute;top: 70px;left: 50px;">
+<button type="button" onclick="CancelLogin()" id="clothButton" style="background-color: black;position: absolute;left: 60px;top:290px;width: 200px;" ><a href="market.html" style="color: white;text-decoration: none;font-weight: 600;">Hisense Manual Washing<br>Machine<br><br><span style="padding:  0;"> N95,000</span> </a></button>
+
+<img src="fan.png" alt="" style="width: 220px;position: absolute;top: 56px;left: 290px;">
+<button type="button" onclick="CancelLogin()" id="clothButton" style="background-color: black;width:200px;height:65px;position: absolute;left: 290px;top:290px;" ><a href="market.html" style="color: white;text-decoration: none;font-weight: 600;">Binatone 16" Standing Fan <br><br><span style="padding:  0;"> N21,500</span> </a></button>
+
+
+<img src="generator.png" alt="" style="width: 220px;position: absolute;top: 70px;left: 510px;">
+<button type="button" onclick="CancelLogin()" id="clothButton"  style="background-color: black;width:200px;height:65px;position: absolute;left: 520px;top:290px;" ><a href="market.html" style="color: white;text-decoration: none;font-weight: 600;">Senwei 1.8kva Generator<br><br><span style="padding:  0;"> N88,000</span> </a></button>
+
+
+<img src="fork.png" alt="" style="width: 220px;position: absolute;top: 50px;left: 730px;">
+<button type="button" onclick="CancelLogin()" id="clothButton" style="background-color: black;width:200px;height:65px;position: absolute;left: 750px;top:290px;" ><a href="market.html" style="color: white;text-decoration: none;font-weight: 600;">Complete Set of Table Cutlery<br><br><span style="padding:  0;"> N10,500</span> </a></button>
+
+<img src="brown.png" alt="" style="width: 220px;position: absolute;top: 70px;left: 980px;">
+<button type="button" onclick="CancelLogin()" id="clothButton" style="background-color: black;width:200px;height:65px;position: absolute;left: 980px;top:290px;" ><a href="market.html" style="color: white;text-decoration: none;font-weight: 600;">Men Formal Leather Shoe<br><br><span style="padding:  0;"> N10,200</span> </a></button> 
+
+    </div>
+
+    
+    <div style="width: 85%; height: 370px;position: absolute;top: 1250px;left: 0px;">
+        <img src="home.png" alt="" style="width: 595px; height: 370px;"><p style="color: white;position: absolute;top: 300px;left: 250px;font-weight: 600;font-size: 22px;">Home & Office</p>
+        <img src="sport.png" alt="" style="width: 595px; height: 370px;position: absolute;top: 0px;left: 605px;"><p style="color: white;position: absolute;top: 300px;left: 840px;font-weight: 600;font-size: 22px;">Sporting Utilities</p>
+    </div> 
+
+
+    
+<div class="footer2" style="position: absolute;top: 1700px;left: -50px; width: 100%;">
+    <footer>
+        <div class="footer-container2">
+            <div class="footer-column2">
+                <h2 style="font-size: 18px; margin-bottom: 10px;">Quick links </h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Contact us </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Our Services </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Our Marketplace</a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Our Routes </a></li>
+    
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2 style="font-size: 18px; margin-bottom: 10px;">Information & legal </h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">About Us </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Terms & Conditions </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Privacy Policy </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Copyright Information </a></li>
+    
+                </ul>
+    
+            </div>
+    
+            <div class="footer-column">
+                <h2 style="font-size: 18px; margin-bottom: 10px;">Social Links </h2>
+                <ul style="list-style: none; padding: 0;">
+                    <!-- <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">contact us icons </a></li> --> <a href="#"><i class="fa-brands fa-instagram" style="font-size:35px;color: white;"></i></a><a href="#"><i class="fa-brands fa-linkedin" style="font-size:35px;position: absolute;left: 810px;color: white;"></i></a><a href="#"><i class="fa-brands fa-twitter" style="font-size:35px;position: absolute;left: 855px;color: white;"></i></a><a href="#"><i class="fa-solid fa-globe" style="font-size:30px;position: absolute;left: 900px;color: white;"></i></a>
+
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;font-size: 20px;font-weight: 600;">Our Newsletter </a></li>
+                    <button type="button" onclick="CancelLogin()" id="emailaButton" >Email Address</button>
+                    <button type="button" onclick="CancelLogin()" id="cancelButton1" style=" width:100px; height: 43px;position: absolute;top: 122px;left: 845px;padding: 15px 40px 30px 20px;font-weight: 600;border: none;border-radius: 4px;">Submit</button>
+                                   
+                </ul>
+
+
+                </div>
+                
+            </div>
+            
+            <div style="border-top: 2px solid white;width: 1190px;margin-top: 30px;margin-left: 110px;margin-bottom: 45px;position: absolute;left: -40px;">
+                <img src="logo.svg" alt="" style=" position: absolute;left: 150px;"> 
+                <p style="position: absolute;left: 946px;top: 20px;">Copyright Information @ 2023</p>
+            </div>
+    </footer>
+</div>
+
+</body>
+
+</html>

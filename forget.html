@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b0daf5ea7.js" crossorigin="anonymous"></script>
+    
+    <style>
+        body {
+            background-color: #aec5eb;
+            font-family: 'poppins', sans-serif;
+        }
+        
+        /* .login{
+            display: flex;
+            align-items: center;
+        }
+        .whole{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid red;
+        } */
+    </style>
+</head>
+<body>
+
+    <div class="navbar1">
+        <a href="#">        <img class="img1" src="logo.svg" alt="logo" style="position: absolute;left: 120px;top: 20px;"></a>
+     <a href="map1.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 270px;top:32px;padding: 10px;border-radius: 4px;">Live Tracking</a>
+    <a href="market.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 470px;top:32px;padding: 10px;border-radius: 4px;">Marketplace</a>
+    <a href="#" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 670px;top:32px;padding: 10px;border-radius: 4px;">Our Services </a>
+    <a href="contact.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 870px;top:32px;padding: 10px;border-radius: 4px;">Contact Us</a>
+    <a href="signin.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 1060px;top:32px;padding: 10px;border-radius: 4px;">Sign In</a>
+    <a href="signup.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 1210px;top:32px;padding: 10px;border-radius: 4px;">Sign Up</a>
+  
+</div>
+    
+
+    <div class="container-forget">
+        <form id="form" action="/">
+            <div class="key2"><img src="padlock.jpg" alt="key" class="key1">  <h3>Forget password</h3></div>
+          
+            <p class="continue" style="font-family: 'poppins', sans-serif;"> Please enter the email address you used to create your account, and we will send you a link to reset your password.</p><br><br>
+
+            <div class="input-control">
+                <label for="email">Email </label>
+                <input  id="email" name="username" type="email" required>
+               
+                
+            <!-- <button type="submit" style="background-color: rgb(6, 6, 36); "><a href="#" style="color: white; text-decoration: none;"> Log in</a></button>        -->
+            <button type="button" onclick="CancelLogin()" id="submitButton" style="width: 230px; height: 40px; border: none;"><a href="signin.html" style="text-decoration: none;color: white;">Submit</a></button>     
+                   </form>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,655 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+ body{
+    /* font-family: 'poppins', sans-serif; */
+    background-color: #1e2749;
+ }
+ .first-nav{
+    /* border: 2px solid red; */
+ }
+ .img1{
+        position: relative;
+    bottom:0px;
+    left: 80px;
+ }
+ #email::placeholder{
+   color: white;
+
+}
+#name::placeholder{
+   color: white;
+}
+.navbar1 {
+   background-color: #1e2749;;
+   overflow: hidden;
+   width: 100%;
+   height: 100px;
+   
+}
+
+/* Style the navigation bar links */
+.navbar1 a {
+   float: left;
+   display: block;
+   color: white;
+   
+              text-decoration: none;
+}
+
+/* Change the color of the links on hover */
+.navbar1 a:hover {
+   background-color: #ddd;
+   color: black;
+}
+
+ .img2{
+    width: 100%;
+    height: 510px;
+    left: 50%;
+    top: 97px;
+ }
+ .welcome{
+    text-align: center;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 160px;
+    left: 450px;
+    height: 410px;
+    align-items: center;
+    
+    
+ }
+ .welcome h1{
+    color: white;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 24px;
+ }
+.order{
+    position: absolute;
+    top: 445px;
+    left: 495px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 550;
+    color: white;
+}
+ .input1{
+    width: 280px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    top: 470px;
+    left: 490px;
+ }
+
+ #debugButton a:hover{
+   background-color: white;
+
+ }
+ 
+ #learnButton{
+   background-color: #1e2749;
+   color: white;
+   margin-left: 0px;
+   position: relative;
+   bottom: 80px;
+   left: 610px;
+   width: 140px;
+   height: 40px;
+   border: 2px solid white;
+   border-radius: 4px;
+
+ }
+ #learnButton:hover{  
+   background-color: white;
+   color: #1e2749;
+   cursor: pointer;
+ }
+ .ordernow1{
+   width: 190px;
+   height: 190px;
+   border: 2px solid #1e2749;
+   border-radius: 100px;
+   position: relative;
+   bottom: 430px;
+   left: 1070px;
+ }
+
+.cup1{
+   width: 630px;
+   height: 430px;
+   position: relative;
+   top: 50px;
+   left: 90px;
+}
+.browse{
+   position: absolute;
+   left: 790px;
+   top: 220px;
+}
+
+#placeButton{
+   background-color: #1e2749;
+   color: white;
+   padding: 7px;
+   position: relative;
+   top: 15px;
+   width: 160px;
+   height: 40px;
+   border-radius: 4px;
+   border: none;
+}
+#placeButton:hover{
+   background-color: rgb(201, 59, 59);
+   color: white;
+   cursor: pointer;
+}
+.livery2{
+   width: 630px;
+   height: 430px;
+   position: absolute;
+   top: 590px;
+   left: 600px;
+}
+.track{
+   position: absolute;
+   top:  780px;
+   left: 150px;
+}
+.bluepic{
+   width: 630px;
+   height: 430px;
+   position: absolute;
+   left: 90px;
+   top: 1050px;
+
+}
+.blue1{
+   position: absolute;
+   left: 800px;
+   top: 1190px;
+}
+.absolutely{
+   border: 2px solid #1e2749;
+   width: 370px;
+   height: 390px;
+   border-radius: 5px;
+   position: absolute;
+   left: 100px;
+   top: 90px;
+}
+
+.absolutely2{
+   border: 2px solid #1e2749;
+   width: 370px;
+   height: 390px;
+   border-radius: 5px;
+   position: absolute;
+   left: 500px;
+   top: 90px;
+}
+
+.absolutely3{
+   border: 2px solid #1e2749;
+   width: 370px;
+   height: 390px;
+   border-radius: 5px;
+   position: absolute;
+   left: 900px;
+   top:  90px;
+}
+#viewButton{
+   background-color: #1e2749;
+   color: white;
+   padding: 7px;
+   position: absolute;
+   top: 520px;
+   left: 600px;
+   width: 160px;
+   height: 40px;
+   border-radius: 4px;
+   border: none;
+
+}
+#viewButton:hover{
+   background-color: rgb(201, 59, 59);
+   color: white;
+   cursor: pointer;
+
+}
+#shopButton:hover{
+   background-color: red;
+   color: red;
+   cursor: pointer;
+}
+
+#placeorderButton{
+   background-color: white;
+   color: black;
+   padding: 7px;
+   width: 180px;
+   height: 50px;
+   border: 2px solid  #1e2749;
+   border-radius: 4px;
+   position: relative;
+   bottom: 120px;
+   left: 445px;
+}
+#placeorderButton:hover{
+   background-color: rgb(201, 59, 59);
+   color: white;
+   cursor: pointer;   
+}
+
+
+/* FOOTER */
+.footer1{
+   position: relative;
+   bottom: 1158px;
+}
+footer{
+   background-color: #1e2749;
+   color: white;
+   padding: 20px 0;
+   text-align: center;
+}
+
+.footer-container{
+   display: flex;
+   justify-content: space-around;
+   max-width: 900px;
+   margin: 0 auto;
+   flex-wrap: wrap;
+}
+.footer-column{
+   flex: 1;
+   padding: 0 15px;
+   text-align: left;
+}
+
+
+ /* SIGN IN CSS CODES  */
+ body {
+   font-family: 'poppins', sans-serif;
+}
+.key1{
+   width: 25px;
+   height: 25px;
+   border: 2px solid #74839d;
+   position: relative;
+   margin-right: 20px;
+   /* top: 50px; */
+}
+.key2{
+   display: flex;
+}
+.continue{
+   position: relative;
+   top: 15px;
+   font-weight: 600;
+}
+#form{
+   width: 500px;
+   margin: 27vh auto 0 auto ;
+   padding: 20px;
+   background-color: #aec5eb;
+   border-radius: 4px;
+   font-size: 12px;
+}
+
+
+#form button{
+   padding: 5px;
+   margin-top: 10px;
+   width: 20%;
+   /* color: white; */
+   /* background-color: green; */
+   /* border: 2px solid red; */
+   border-radius: 4px;
+   display: inline-block;
+   
+   margin-right: 10px;
+   
+}
+.remember{
+   position: relative;
+   right: 220px;
+   
+}
+.remember2{
+   position: relative;
+   bottom: 45px;
+   left: 27px;
+}
+.forget{
+   position: relative;
+   bottom: 65px;
+   left: 350px;
+}
+.forget a{
+   text-decoration: none;
+}
+#loginButton{
+   background-color: #444b67;
+   color: white;
+   margin-left: 0px;
+   position: relative;
+   bottom: 50px;
+   
+}
+#loginButton:hover{
+   background-color: #1e2749;
+   color: white;
+   cursor: pointer;
+}
+#cancelButton{
+   background-color: white;
+   color: black;
+   margin-left: 110px;
+   position: relative;
+   bottom: 89.5px;
+}
+#cancelButton:hover{
+   background-color: #1e2749;
+   color: white;
+   cursor: pointer;
+}
+
+
+.input-control {
+   display: flex;
+   flex-direction: column;
+}
+
+.input-control label{
+   font-weight: 600;
+}
+
+.input-control input{
+   border: 2px solid #f0f0f0;
+   border-radius: 4px;
+   display: block;
+   font-size: 12px;
+   padding: 10px;
+   margin-bottom: 30px;
+   width: 100%;
+}
+
+.input-control input:focus{
+   outline: 0;
+}
+.dont{
+   position: relative;
+   bottom: 30px;
+   border-top: 1px solid #1e2749;
+
+}
+footer p {
+   position: relative;
+   top: 30px;
+   text-align: center;
+}
+
+.map1 p{
+   color: white;
+}
+.mapimg{
+   width: 190px;
+   height: 190px;
+   position: relative;
+   left: 110px;
+   top: 70px;
+}
+
+
+.basket1{
+   width: 190px;
+   height: 190px;
+   position: relative;
+   left: 590px;
+   bottom: 200px;
+
+}
+/* SIGN UP CSS */
+.mark1{
+   width: 25px;
+   height: 25px;
+   border: 2px solid #74839d;
+   position: relative;
+   bottom: 3px;
+   margin-right: 10px;
+   
+}
+.mark2{
+         display: flex;
+         margin-bottom: 20px;
+}
+.continue1{
+   position: absolute;
+   top: 275px;
+   font-size: 12px;
+   font-weight: 600;
+}
+
+#loginButton1{
+   background-color: #444b67;
+   color: white;
+   margin-left: 0px;
+   position: relative;
+   top: 10px;
+   
+   
+}
+
+#loginButton1:hover{
+   background-color: #1e2749;
+   color: white;
+   cursor: pointer;
+}
+
+#cancelButton1{
+   background-color: white;
+   color: black;
+   margin-left: 110px;
+   position: relative;
+   bottom: 43px;
+   left: 30px;
+
+}
+
+#cancelButton1:hover{
+   background-color: red;
+   color: white;
+   cursor: pointer;
+}
+.delivery1{
+   position: absolute;
+   top: 320px;
+   left: 640px;
+}
+
+/* Forget password css */
+#submitButton{
+   background-color: #444b67;
+   color: white;
+   margin-left: 0px;
+   position: relative;
+   bottom: 20px;
+   left: 110px;
+   
+   
+}
+#submitButton:hover{
+   background-color: #1e2749;
+   color: white;
+   cursor: pointer;
+}
+
+/* LEARN MORE CSS */
+
+.learn11{
+   position: absolute;
+   bottom:  370px;
+   left: 460px;
+}
+/* FOOTER CSS */
+.footer2{
+   position: relative;
+   bottom: 1158px;
+}
+footer{
+   background-color: #1e2749;
+   color: white;
+   padding: 20px 0;
+   text-align: center;
+   font-family: 'poppins', sans-serif;
+}
+
+.footer-container2{
+   display: flex;
+   justify-content: space-around;
+   max-width: 900px;
+   margin: 0 auto;
+   flex-wrap: wrap;
+}
+.footer-column2{
+   flex: 1;
+   padding: 0 15px;
+   text-align: left;
+}
+
+.footer-column3{
+   flex: 1;
+   padding: 0 15px;
+   text-align: left;
+   position: absolute;
+   left: 550px;
+
+}
+
+
+.footer-column4{
+   flex: 1;
+   padding: 0 15px;
+   text-align: left;
+   position: absolute;
+   left: 900px;
+
+}
+
+#emailaButton{
+   border: 2px solid white;
+   padding: 15px 40px;
+   background-color: #1e2749;
+   color: white;
+   border-radius: 4px;
+  
+}
+
+
+/* MARKET CSS */
+
+/* MAP */
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Raleway', sans-serif;
+}
+
+
+.header{
+   position: relative;
+   font-weight: 400;
+   max-width: 100%;
+   
+}
+
+.nav-bar{
+   display: flex;
+   gap: 6rem;
+   margin-left: 9.6rem;
+   
+}
+.svg{
+   margin-top: 0.5rem;
+}
+.arrow-icon{
+   font-size: 6rem;
+   color: white;
+   margin-top: 1rem;
+}
+.user-icon{
+   position: absolute;
+   float: right;
+   top: 7%;
+   right: 8%;
+   font-size: 8rem;
+   color: white;
+}
+.main-nav{
+   font-size: 2rem;
+   position: absolute;
+   top: 50%;
+   left: 28%;
+}
+.main-nav-list{
+   list-style: none;
+   display: flex;
+   gap: 6rem;
+   align-items: center;
+}
+.main-nav-link:link,
+.main-nav-link:visited{
+   text-decoration: none;
+   color: white;
+}
+
+.map{
+   position: relative;
+}
+.map img{
+   position: absolute;
+   width: 100%;
+   margin: auto;
+   top: 25px;
+   left: 0;
+   z-index: -1;
+}
+.map-line{
+   position: absolute;
+   left: 490px;
+   top: 285px;
+}
+.map-location{
+   position: absolute;
+   left: 595px;
+   top: 235px;
+   font-size: 4.8rem;
+   color: red;
+
+}
+.map--location{
+   position: absolute;
+   left: 815px;
+   top: 570px;
+   font-size: 4.8rem;
+   color: red;
+
+}
+.map-car{
+   position: absolute;
+   left: 400px;
+   top: 295px;
+}
+.map--car{
+   position: absolute;
+   left: 645px;
+   top: 460px;
+}

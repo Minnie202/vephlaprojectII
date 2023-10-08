@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill summary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b0daf5ea7.js" crossorigin="anonymous"></script>
+    <style>
+         #email::placeholder{
+            color: white;
+
+        }
+        #name::placeholder{
+            color: white;
+        }
+        .navbar1 {
+            background-color: #1e2749;;
+            overflow: hidden;
+            width: 100%;
+            height: 100px;
+            
+        }
+
+        /* Style the navigation bar links */
+        .navbar1 a {
+            float: left;
+            display: block;
+            color: white;
+            
+                       text-decoration: none;
+        }
+
+        /* Change the color of the links on hover */
+        .navbar1 a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+    </style>
+</head>
+<body style="background-color: white;">
+
+    <div class="navbar1">
+        <a href="index.html"> <i class="fa-solid fa-arrow-left" style="padding: 5px;border: 2px solid white; border-radius: 30px;background-color:white;color:black;font-size: 40px;position: absolute;left: 160px;top: 30px;"></i></a> 
+
+        <a href="#">        <img class="img1" src="logo.svg" alt="logo" style="position: absolute;left: 320px;top: 20px;"></a>
+     <a href="map1.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 490px;top:32px;padding: 10px;border-radius: 4px;">Live Tracking</a>
+    <a href="market.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 690px;top:32px;padding: 10px;border-radius: 4px;">Marketplace</a>
+    <a href="#" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 890px;top:32px;padding: 10px;border-radius: 4px;">Our Services </a>
+    <a href="contact.html" style="font-family: 'poppins', sans-serif;font-size: 18px;font-weight: 500;position: absolute;left: 1090px;top:32px;padding: 10px;border-radius: 4px;">Contact Us</a>
+    <a href="signup.html"> <i class="fa-regular fa-user" style="padding: 5px;border: 2px solid white; border-radius: 30px;background-color:transparent;color:white;font-size: 30px;position: absolute;left: 1290px;top: 30px;"></i></a> 
+
+  
+</div>
+    
+<div>
+    <div style="border: 2px solid #1e2749;border-radius: 4px; width: 1120px;position: absolute;left: 130px;top:90px;margin-top: 60px;margin-bottom: 50px;background-color: #1e2749;opacity: 0.7;">
+        <p style="padding-top:10px; padding-bottom: 10px; padding-right: 10px;padding-left: 50px; color: white;font-weight: 600;">Bill Summary</p>
+    </div>
+
+
+    <div style="border: 2px solid #1e2749;width: 1120px;position: absolute;top:   235px;left: 130px;background-color: #1e2749;border-radius: 4px;opacity: 0.7;">
+        <p style="padding: 35px 20px 35px 50px;color: white;font-weight: 600;">Sub Total <span style="font-family:Georgia, 'Times New Roman', Times, serif;position: absolute;left: 990px;">N 5899.73</span></p>
+    </div>
+
+    <div style="border: 2px solid #1e2749;width: 1120px;position: absolute;top:  330px;left: 130px;background-color: #1e2749;border-radius: 4px;opacity: 0.7;">
+        <p style="padding: 35px 20px 35px 50px;color: white;font-weight: 600;">Total <span style="font-family:Georgia, 'Times New Roman', Times, serif;position: absolute;left: 990px;">N 5899.73</span></p>
+    </div>
+
+    <button type="button" onclick="CancelLogin()" id="placeButton" style="position: absolute;top:470px;left: 650px;"><a href="payment.html" style="text-decoration: none;color: white;"> Add Card</a></button>
+
+</div>
+
+
+<div class="footer2" style="position: absolute;top: 560px; width: 100%;">
+    <footer>
+        <div class="footer-container2">
+            <div class="footer-column2">
+                <h2 style="font-size: 18px; margin-bottom: 10px;">Quick links </h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"> <a href="contact.html" style="color: white; text-decoration: none;">Contact us </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Our Services </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="market2.html" style="color: white; text-decoration: none;">Our Marketplace</a></li>
+                    <li style="margin-bottom: 8px;"> <a href="map1.html" style="color: white; text-decoration: none;">Our Routes </a></li>
+    
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2 style="font-size: 18px; margin-bottom: 10px;">Information & legal </h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">About Us </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Terms & Conditions </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Privacy Policy </a></li>
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">Copyright Information </a></li>
+    
+                </ul>
+    
+            </div>
+    
+            <div class="footer-column">
+                <h2 style="font-size: 18px; margin-bottom: 10px;">Social Links </h2>
+                <ul style="list-style: none; padding: 0;">
+                    <!-- <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;">contact us icons </a></li> --><a href="#"><i class="fa-brands fa-instagram" style="font-size:35px;color: white;"></i></a><a href="#"><i class="fa-brands fa-linkedin" style="font-size:35px;position: absolute;left: 910px;color: white;"></i></a><a href="#"><i class="fa-brands fa-twitter" style="font-size:35px;position: absolute;left: 955px;color: white;"></i></a><a href="#"><i class="fa-solid fa-globe" style="font-size:30px;position: absolute;left: 1000px;color: white;"></i></a>
+
+                    <li style="margin-bottom: 8px;"> <a href="#" style="color: white; text-decoration: none;font-size: 20px;font-weight: 600;">Our Newsletter </a></li>
+                    <button type="button" onclick="CancelLogin()" id="cancelButton1" style=" width:100px; height: 43px;position: absolute;top: 117px;left: 955px;padding: 15px 40px 30px 20px;font-weight: 600;border: none;border-radius: 4px;">Submit</button>
+                    <button type="button" onclick="CancelLogin()" id="emailaButton">Email Address</button>               
+                </ul>
+
+
+                </div>
+                
+            </div>
+            
+            <div style="border-top: 2px solid white;width: 1190px;margin-top: 30px;margin-left: 110px;margin-bottom: 45px;">
+                <img src="logo.svg" alt="" style=" position: absolute;left: 150px;"> 
+                <p style="position: absolute;left: 1060px;top: 240px;">Copyright Information @ 2023</p>
+            </div>
+    </footer>
+
+
+    
+</body>
+</html>
